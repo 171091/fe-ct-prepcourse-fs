@@ -40,6 +40,7 @@ function capicua(numero) {
   // Caso contrario: "No es capicua".
   // Tu código:
   const numeroStr = numero.toString();
+
   const numeroReverso = numeroStr.split("").reverse().join("");
   if (numeroStr === numeroReverso) {
     return "Es capicua";
