@@ -29,31 +29,18 @@ function asAmirror(frase) {
   // La diferencia es que cada palabra estará escrita al inverso.
   // [EJEMPLO]: "The Henry Challenge is close!"  ---> "ehT yrneH egnellahC si !esolc"
   // Tu código:
-  return frase
-    .split(" ")
-    .map((palabra) => palabra.split("").reverse().join(""))
-    .join(" ");
 }
 
 function capicua(numero) {
   // Si el número que recibes es capicúa debes retornar el string: "Es capicua".
   // Caso contrario: "No es capicua".
   // Tu código:
-  const numeroStr = numero.toString();
-
-  const numeroReverso = numeroStr.split("").reverse().join("");
-  if (numeroStr === numeroReverso) {
-    return "Es capicua";
-  } else {
-    return "No es capicua";
-  }
 }
 
 function deleteAbc(string) {
   // Tu tarea es eliminar las letras "a", "b" y "c" del string recibido.
   // Retorna el string sin estas letras.
   // Tu código:
-  return string.replace(/[abc]/g, "");
 }
 
 function sortArray(arrayOfStrings) {
